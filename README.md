@@ -21,6 +21,7 @@ However, in case that the camera lose track of one lane, the algorithm will calc
 
 ## Arrow Recognition && Traffic Light Recognition
 Traffic light recognition also uses the FOMO model. Specific ROI located on the right side of the screen is extracted and compressed to a resolution of 96x96 to identify traffic light states. The FOMO model analyses the image and classifies it into one of four categories: red, green, yellow and red-yellow. Each category corresponds to one traffic light state. The recognized states are sent to the MCU, which then controls the actions of the robot. For example, when a red light is recognized, the MCU controls the robot to stop, and when a green light is recognized, the MCU allows the robot to continue.<img width="1208" alt="截屏2024-07-11 17 33 38" src="https://github.com/Juneh01/Visual-Processing-Subsystem-for-Lane-keeping-and-Recognition-TDPS-Project-/assets/172175067/c3482088-dc5f-4d03-8e90-9b965c2c3afd">
+<img width="1010" alt="截屏2024-07-11 17 35 27" src="https://github.com/Juneh01/Visual-Processing-Subsystem-for-Lane-keeping-and-Recognition-TDPS-Project-/assets/172175067/ee76057d-d73f-40c6-8ee8-475685fb5ba2">
 
 ## Communication Design
 <img width="538" alt="截屏2024-07-11 17 34 08" src="https://github.com/Juneh01/Visual-Processing-Subsystem-for-Lane-keeping-and-Recognition-TDPS-Project-/assets/172175067/664c204c-1cfb-42b0-974a-66592156414a">
