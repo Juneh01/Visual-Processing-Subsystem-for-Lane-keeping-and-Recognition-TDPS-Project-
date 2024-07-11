@@ -1,0 +1,8 @@
+background
+green
+left
+red
+right
+straight
+yellow
+yellowred
